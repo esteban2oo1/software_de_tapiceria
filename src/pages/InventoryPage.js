@@ -87,7 +87,7 @@ const InventoryPage = () => {
         return productList.find((producto) => producto.id === item.producto)?.descripcion || 'Nombre no disponible';
   
       default:
-        return 'Nombre no disponible';
+        return 'Nombre nnoo disponible';
     }
   };
 
